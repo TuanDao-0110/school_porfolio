@@ -5,7 +5,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-/* tạo 1 global selector for class : button */
+/* create effect for button*/
 .button a {
   color: #00cdce;
   font-size: 17px;
@@ -23,8 +23,11 @@
 .button {
   width: 8rem;
 }
+section { 
+      scroll-margin-top: 100px;
 
-/* tạo hiệu ứng hover global */
+}
+/* create hover effect global */
 
 .button:hover a {
   color: white;
@@ -67,7 +70,7 @@ header {
   z-index: 10;
   width: 100%;
 }
-/* sử dụng flexbox cho 2 div con nằm cùng 1 hàng */
+/* */
 .header__content {
   display: flex;
   text-transform: capitalize;
@@ -95,8 +98,6 @@ header {
 .header h1 span {
   color: #00cdce;
 }
-/* canh lề cho text cũng như div lệch hết về bên phải */
-/* set up width cho thẻ nav chiếm 80% width để tránh việc các li bị rớt xuống hàng */
 .header nav {
   width: 80%;
 
@@ -124,7 +125,7 @@ header {
   transition: all 0.5s;
 }
 
-/* tạo hiệu ứng hover cho navigation bar */
+/* create hover for navigation bar */
 
 .header ul li a:hover {
   border-bottom: 2px solid rgba(12, 11, 11, 0);
@@ -319,7 +320,7 @@ header {
   font-size: 1rem;
 }
 
-/* class của button  */
+/* class  button  */
 
 /* .lb-data .lb-close{
  
