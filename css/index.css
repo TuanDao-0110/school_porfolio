@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 /* tạo 1 global selector for class : button */
 .button a {
@@ -61,7 +62,7 @@ a {
 
 /* HEADER */
 header {
-  padding: 0px 0;
+  padding: 0;
   position: fixed;
   z-index: 10;
   width: 100%;
@@ -72,8 +73,11 @@ header {
   text-transform: capitalize;
   position: relative;
   background-color: rgba(25, 25, 25, 0.8);
+  transition: all 500ms;
 }
-
+.expand { 
+  padding: 1rem;
+}
 .header__content h1 {
   padding-top: 0.5rem;
 }
@@ -209,7 +213,7 @@ header {
   border: black 1px solid;
   border-radius: 50%;
   line-height: 7rem;
-  font-size: 2rem;
+  font-size: 3rem;
   transition: all 0.5s;
   cursor: pointer;
   margin: 1rem 1rem 1rem;
